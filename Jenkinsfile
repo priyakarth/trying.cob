@@ -5,7 +5,7 @@ pipeline {
     stage ('Build') {
      steps {
       echo 'Running Build Automation '
-       sh './build.sh --no-daemon'      
+       sh 'chmod +x ./build.sh --no-daemon'      
         }
        }
       }
