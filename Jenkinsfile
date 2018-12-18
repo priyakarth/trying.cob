@@ -6,7 +6,7 @@ pipeline {
      steps {
       echo 'Running Build Automation '
        sh 'sudo chmod +x build.sh'
-       sh '/home/centos/workspace/trying.cob/build.sh --no-daemon'
+       sh './build.sh --no-daemon'
        
         }
        }
