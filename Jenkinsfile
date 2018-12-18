@@ -7,13 +7,8 @@ pipeline {
       echo 'Running Build Automation '
        sh 'sudo chmod +x build.sh'
        sh './build.sh --no-daemon'
+       sh 'cp /var/lib/jenkins/workspace/Cobol_1_master /home/centos/deploy'
       
-      stage ('Deploy') {
-       steps {
-        echo 'Deploying the build'
-        sh 'cp /var/lib/jenkins/workspace/Cobol_1_master /home/centos/deploy'
-       }
-      }
        
         }
        }
