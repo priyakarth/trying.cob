@@ -1,2 +1,2 @@
 
-printf "Run \"cobc -x hello-world.cbl" to compile. \n\n----------------------------------\n"
+printf "Run \ "cobc -x hello-world.cbl" to compile. \n\n----------------------------------\n"
