@@ -9,7 +9,7 @@ pipeline {
        sh './build.sh --no-daemon'
       
       stage ('Deploy') {
-       steps{
+       steps {
         echo 'Deploying the build'
         sh 'cp /var/lib/jenkins/workspace/Cobol_1_master /home/centos/deploy'
        }
