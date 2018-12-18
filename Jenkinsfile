@@ -5,7 +5,7 @@ pipeline {
     stage ('Build') {
      steps {
       echo 'Running Build Automation '
-       sh 'bash ./build.sh --no-daemon'      
+       sh './build.sh --no-daemon'      
         }
        }
       }
