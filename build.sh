@@ -1,3 +1,3 @@
 #!/bin/bash
-export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+cd /home/centos/workspace/trying.cob
 cobc -x hello-world.cob
