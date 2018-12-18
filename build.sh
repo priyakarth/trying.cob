@@ -1,2 +1,2 @@
 #!/bin/bash
-cobc -x trying.cob
+cobc -x hello-world.cob
