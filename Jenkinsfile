@@ -19,7 +19,7 @@ script {
 
 sh "docker build -t priyakarth/sampleapp ."
 sh "docker login --username=$env.USERNAME --password=$env.PASSWORD"
-sh "docker push priyakarth/jnekins"    
+sh "docker push priyakarth/sampleapp"    
 }
 }
    }
