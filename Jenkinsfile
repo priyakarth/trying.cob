@@ -17,7 +17,7 @@ steps {
 
 script {
 
-sh "docker build -t priyakarth/sampleapp5 ."
+sh "docker build -t priyakarth/sampleapp6 ."
 sh "docker login --username=$env.USERNAME --password=$env.PASSWORD"
 sh "docker push priyakarth/sampleapp2"    
 }
